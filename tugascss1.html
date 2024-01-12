@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
+      .container {
+        height: 500px;
+        margin: 200px 200px;
+        /* border: 1px solid black; */
+        display: flex;
+      }
+
+      .container .satu {
+        width: 50%;
+      }
+
+      .container .satu h1 {
+        font-size: 50px;
+      }
+
+      .container .satu .line {
+        width: 100px;
+        height: 10px;
+        background-color: yellow;
+        margin-bottom: 40px;
+        border-radius: 10px;
+      }
+
+      .container .satu .button {
+        /* height: 60px; */
+        width: 150px;
+        padding: 10px 10px;
+        background-color: yellow;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 40px;
+        cursor: pointer;
+      }
+
+      .container .dua {
+        width: 50%;
+        margin: auto;
+      }
+
+      .container .dua img {
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="satu">
+        <h1>Hello <br />World!</h1>
+        <div class="line"></div>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem atque
+          similique illum odit voluptatibus pariatur quasi! Numquam corporis
+          voluptas, magni blanditiis, veritatis dolore quidem exercitationem
+          dolores possimus sit debitis molestiae!
+        </p>
+        <div class="button">Download Here</div>
+      </div>
+      <div class="dua">
+        <img src="assets/messi.jpg" alt="messi" />
+      </div>
+    </div>
+  </body>
+</html>

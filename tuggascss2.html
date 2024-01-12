@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+    <style>
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul a {
+        padding: 10px 35px;
+      }
+
+      header {
+        height: 15rem;
+        background-color: purple;
+      }
+      header h3 {
+        text-align: center;
+        line-height: 15rem;
+      }
+
+      article {
+        display: flex;
+        margin: 10px 100px;
+      }
+
+      article .content {
+        width: 50%;
+      }
+
+      article .content .line {
+        height: 5px;
+        width: 100px;
+        background-color: black;
+      }
+
+      article .sidebar {
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+        line-height: 200px;
+        margin: 30px auto;
+        text-align: center;
+      }
+
+      footer {
+        height: 40px;
+        background-color: bisque;
+        line-height: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <a>Menu 1</a>
+        <a>Menu 2</a>
+        <a>Menu 3</a>
+        <a>Menu 4</a>
+      </ul>
+    </nav>
+
+    <header>
+      <h3>gambar header</h3>
+    </header>
+
+    <article>
+      <div class="content">
+        <h3>title</h3>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
+          blanditiis error vero repudiandae dignissimos, molestias deserunt ad
+          similique aliquam suscipit rerum alias ipsa ab itaque repellendus eius
+          recusandae odit dolorum dicta corrupti, sapiente cum ratione
+          accusamus. Earum magnam quas nam beatae sit quae, sapiente nihil
+          eligendi iste placeat. Architecto aut doloremque quo officiis
+          quibusdam animi dolore dolorum repellat natus cum.
+        </p>
+      </div>
+      <div class="sidebar">sidebar</div>
+    </article>
+
+    <footer>footer</footer>
+  </body>
+</html>
