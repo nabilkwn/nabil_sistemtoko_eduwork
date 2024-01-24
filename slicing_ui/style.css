@@ -1,0 +1,98 @@
+.nav .btn-navbar {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 0 6px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.alert {
+  height: 3rem;
+  background-color: #f1f1f1;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.alert p span {
+  font-weight: bold;
+}
+
+.card-adv-1 {
+  background: url(./asset/home1.png);
+  width: 28.1875rem;
+  height: 17.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: white;
+}
+
+.card-adv-2 {
+  background: url(./asset/home2.png);
+  width: 24.1875rem;
+  height: 17.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: white;
+}
+
+.card-adv-3 {
+  background: url(./asset/home3.png);
+  width: 28.1875rem;
+  height: 17.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: white;
+}
+
+.text-title {
+  margin: 5rem auto;
+  color: var(--Colors-Grayscale-Label-title, #101519);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.image-footer {
+  margin-top: 4rem;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: center;
+}
+
+/* deatil.html */
+.alert-2 {
+  color: var(--Grayscale-Text-Body, #423b4f);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.alert-2 span {
+  color: var(--Grayscale-Text-Body, #423b4f);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.size-guide {
+  display: flex;
+  margin-top: 20px;
+}

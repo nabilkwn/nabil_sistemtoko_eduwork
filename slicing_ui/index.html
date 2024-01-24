@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slicing UI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle navbar-brand"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="./asset/logo.png"
+                  alt="Logo"
+                  height="30"
+                  class="d-inline-block align-text-top"
+                />
+                SHOP
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="detail.html">Detail Produk</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >PAYMENT CONFIRMATION</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >TRACK YOUR ORDER</a
+              >
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <button class="btn-navbar">
+              <span class="iconify" data-icon="iconamoon:search-light"></span>
+            </button>
+            <button class="btn-navbar">LOGIN</button>
+            <button class="btn-navbar">CART</button>
+            <button class="btn-navbar">
+              <span class="iconify" data-icon="mdi:cart-outline"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- alert -->
+    <div class="alert">
+      <p>Free Ongkir Jabodetabek / <span>50k</span></p>
+    </div>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./asset/carousel.png"
+            class="d-block w-100"
+            alt="carousel"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./asset/carousel.png"
+            class="d-block w-100"
+            alt="carousel"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./asset/carousel.png"
+            class="d-block w-100"
+            alt="carousel"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- card -->
+    <div class="d-flex justify-content-around mt-3">
+      <div class="card-adv-1">
+        <h3>T-SHIRT COLLECTION</h3>
+      </div>
+      <div class="card-adv-2">
+        <h3>PANTS COLLECTION</h3>
+      </div>
+      <div class="card-adv-3">
+        <h3>ACCESORIES COLLECTION</h3>
+      </div>
+    </div>
+
+    <!-- product -->
+    <div class="container-fluid">
+      <h3 class="text-title">FEATURED PRODUCTS</h3>
+    </div>
+
+    <div class="d-flex justify-content-center flex-wrap gap-4">
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk1.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk1.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk1.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk1.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h3 class="text-title">NEW ARRIVALS</h3>
+    </div>
+
+    <div class="d-flex justify-content-center flex-wrap gap-4">
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./asset/produk2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p style="margin: 0">JILBAB</p>
+          <h5 class="card-title">Jilbab Italy Norwegia</h5>
+          <span style="color: red">Rp200.000</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- image -->
+    <div class="image-footer">
+      <img src="./asset/image.png" class="img-fluid" alt="imaging" />
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="d-flex justify-content-around mt-5">
+        <div>
+          <h3 class="footer-title">HELP</h3>
+          <div class="footer-text my-5">
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-title">ABOUT US</h3>
+          <div class="footer-text my-5">
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-title">CONTACT US</h3>
+
+          <div class="footer-text my-5">
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+            <p>text in here</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
