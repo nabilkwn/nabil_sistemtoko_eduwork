@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localstorage</title>
+  </head>
+  <body>
+    <h1>Localstorage</h1>
+
+    nama : <input type="text" name="nama" id="nama" />
+
+    <button onclick="simpanNama()">Simpan</button>
+    <p id="nama_local"></p>
+
+    <script>
+      function simpanNama() {
+        var nama = document.getElementById("nama").value;
+
+        localStorage.setItem("nama", nama);
+
+        document.getElementById("nama_local").innerHTML =
+          "Nama anda adalah " + nama;
+      }
+    </script>
+  </body>
+</html>
