@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Efek Visual</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+      #target {
+        position: relative;
+        left: 0;
+        opacity: 1;
+        transition: left 0.5s, opacity 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="show">Tampilkan</button>
+    <button id="hide">Sembunyikan</button>
+    <p id="target">Teks ini akan muncul</p>
+
+    <script>
+      $("#show").click(function () {
+        $("#target").css({ left: "0", opacity: 1 });
+      });
+
+      $("#hide").click(function () {
+        $("#target").css({ left: "-50%", opacity: 0 });
+      });
+    </script>
+  </body>
+</html>

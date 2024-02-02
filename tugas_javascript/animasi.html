@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animasi Dan Effect Pada Javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+      div {
+        margin: 1rem;
+        height: 200px;
+        width: 200px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <button class="rotate">Putar</button>
+    <script>
+      $(".rotate").click(function () {
+        $("div").css("transform", "rotate(80deg)");
+      });
+    </script>
+  </body>
+</html>
